@@ -1,0 +1,10 @@
+.env
+venv
+/venv
+/.env
+/alembic
+/main.py
+/models.py
+/router.py
+/schemas.py
+/alembic.ini
