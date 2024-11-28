@@ -16,6 +16,38 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -93,6 +125,22 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -377,6 +425,22 @@
         "documentation": {}
     },
     {
+        "label": "postgresql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "postgresql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -426,14 +490,6 @@
         "documentation": {}
     },
     {
-        "label": "Base",
-        "importPath": "database",
-        "description": "database",
-        "isExtraImport": true,
-        "detail": "database",
-        "documentation": {}
-    },
-    {
         "label": "get_db",
         "importPath": "database",
         "description": "database",
@@ -458,6 +514,22 @@
         "documentation": {}
     },
     {
+        "label": "Base",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
         "label": "get_db",
         "importPath": "database",
         "description": "database",
@@ -487,6 +559,455 @@
         "description": "database",
         "isExtraImport": true,
         "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "joinedload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "ReseverationServices",
+        "importPath": "app.reseverations.services",
+        "description": "app.reseverations.services",
+        "isExtraImport": true,
+        "detail": "app.reseverations.services",
+        "documentation": {}
+    },
+    {
+        "label": "ReseverationServices",
+        "importPath": "app.reseverations.services",
+        "description": "app.reseverations.services",
+        "isExtraImport": true,
+        "detail": "app.reseverations.services",
+        "documentation": {}
+    },
+    {
+        "label": "ReseverationCreate",
+        "importPath": "app.reseverations.v1.schema",
+        "description": "app.reseverations.v1.schema",
+        "isExtraImport": true,
+        "detail": "app.reseverations.v1.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ReseverationUpdate",
+        "importPath": "app.reseverations.v1.schema",
+        "description": "app.reseverations.v1.schema",
+        "isExtraImport": true,
+        "detail": "app.reseverations.v1.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ReseverationDisplay",
+        "importPath": "app.reseverations.v1.schema",
+        "description": "app.reseverations.v1.schema",
+        "isExtraImport": true,
+        "detail": "app.reseverations.v1.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ReseverationsStatus",
+        "importPath": "app.reseverations.v1.schema",
+        "description": "app.reseverations.v1.schema",
+        "isExtraImport": true,
+        "detail": "app.reseverations.v1.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ReseverationCreate",
+        "importPath": "app.reseverations.v1.schema",
+        "description": "app.reseverations.v1.schema",
+        "isExtraImport": true,
+        "detail": "app.reseverations.v1.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ReseverationUpdate",
+        "importPath": "app.reseverations.v1.schema",
+        "description": "app.reseverations.v1.schema",
+        "isExtraImport": true,
+        "detail": "app.reseverations.v1.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Reseveration",
+        "importPath": "app.reseverations.v1.schema",
+        "description": "app.reseverations.v1.schema",
+        "isExtraImport": true,
+        "detail": "app.reseverations.v1.schema",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.users.auth",
+        "description": "app.users.auth",
+        "isExtraImport": true,
+        "detail": "app.users.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.users.auth",
+        "description": "app.users.auth",
+        "isExtraImport": true,
+        "detail": "app.users.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.users.auth",
+        "description": "app.users.auth",
+        "isExtraImport": true,
+        "detail": "app.users.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.users.auth",
+        "description": "app.users.auth",
+        "isExtraImport": true,
+        "detail": "app.users.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "app.users.auth",
+        "description": "app.users.auth",
+        "isExtraImport": true,
+        "detail": "app.users.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_user",
+        "importPath": "app.users.auth",
+        "description": "app.users.auth",
+        "isExtraImport": true,
+        "detail": "app.users.auth",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "importPath": "app.users.auth",
+        "description": "app.users.auth",
+        "isExtraImport": true,
+        "detail": "app.users.auth",
         "documentation": {}
     },
     {
@@ -515,6 +1036,14 @@
     },
     {
         "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "HttpUrl",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -634,195 +1163,27 @@
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "reseverations",
+        "importPath": "app",
+        "description": "app",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app",
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "Reseveration",
+        "importPath": "app.reseverations.models",
+        "description": "app.reseverations.models",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.reseverations.models",
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "ReseverationsStatus",
+        "importPath": "app.reseverations.models",
+        "description": "app.reseverations.models",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "sessionmaker",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "app.reseverations.models",
         "documentation": {}
     },
     {
@@ -831,30 +1192,6 @@
         "description": "app.rooms.services",
         "isExtraImport": true,
         "detail": "app.rooms.services",
-        "documentation": {}
-    },
-    {
-        "label": "RoomServices",
-        "importPath": "app.rooms.services",
-        "description": "app.rooms.services",
-        "isExtraImport": true,
-        "detail": "app.rooms.services",
-        "documentation": {}
-    },
-    {
-        "label": "Rooms",
-        "importPath": "app.rooms.models",
-        "description": "app.rooms.models",
-        "isExtraImport": true,
-        "detail": "app.rooms.models",
-        "documentation": {}
-    },
-    {
-        "label": "Rooms",
-        "importPath": "app.rooms.models",
-        "description": "app.rooms.models",
-        "isExtraImport": true,
-        "detail": "app.rooms.models",
         "documentation": {}
     },
     {
@@ -898,84 +1235,11 @@
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "app.users.models",
-        "description": "app.users.models",
+        "label": "RoomStatus",
+        "importPath": "app.rooms.v1.schema",
+        "description": "app.rooms.v1.schema",
         "isExtraImport": true,
-        "detail": "app.users.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.users.models",
-        "description": "app.users.models",
-        "isExtraImport": true,
-        "detail": "app.users.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.users.models",
-        "description": "app.users.models",
-        "isExtraImport": true,
-        "detail": "app.users.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.users.models",
-        "description": "app.users.models",
-        "isExtraImport": true,
-        "detail": "app.users.models",
-        "documentation": {}
-    },
-    {
-        "label": "get_current_user",
-        "importPath": "app.users.auth",
-        "description": "app.users.auth",
-        "isExtraImport": true,
-        "detail": "app.users.auth",
-        "documentation": {}
-    },
-    {
-        "label": "get_current_user",
-        "importPath": "app.users.auth",
-        "description": "app.users.auth",
-        "isExtraImport": true,
-        "detail": "app.users.auth",
-        "documentation": {}
-    },
-    {
-        "label": "create_access_token",
-        "importPath": "app.users.auth",
-        "description": "app.users.auth",
-        "isExtraImport": true,
-        "detail": "app.users.auth",
-        "documentation": {}
-    },
-    {
-        "label": "authenticate_user",
-        "importPath": "app.users.auth",
-        "description": "app.users.auth",
-        "isExtraImport": true,
-        "detail": "app.users.auth",
-        "documentation": {}
-    },
-    {
-        "label": "pwd_context",
-        "importPath": "app.users.auth",
-        "description": "app.users.auth",
-        "isExtraImport": true,
-        "detail": "app.users.auth",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "models",
-        "description": "models",
-        "detail": "models",
+        "detail": "app.rooms.v1.schema",
         "documentation": {}
     },
     {
@@ -1040,6 +1304,22 @@
         "description": "app.users.v1.schema",
         "isExtraImport": true,
         "detail": "app.users.v1.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "importPath": "app.users.v1.schema",
+        "description": "app.users.v1.schema",
+        "isExtraImport": true,
+        "detail": "app.users.v1.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Rooms",
+        "importPath": "app.rooms.models",
+        "description": "app.rooms.models",
+        "isExtraImport": true,
+        "detail": "app.rooms.models",
         "documentation": {}
     },
     {
@@ -1123,6 +1403,14 @@
         "documentation": {}
     },
     {
+        "label": "delete",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
         "label": "declarative_base",
         "importPath": "sqlalchemy.ext.declarative",
         "description": "sqlalchemy.ext.declarative",
@@ -1146,6 +1434,15 @@
         "importPath": "logging.handlers",
         "description": "logging.handlers",
         "detail": "logging.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "models",
+        "description": "models",
+        "detail": "models",
         "documentation": {}
     },
     {
@@ -1176,6 +1473,24 @@
     {
         "label": "upgrade",
         "kind": 2,
+        "importPath": "alembic.versions.4a63f0259e44_create_rooms_table",
+        "description": "alembic.versions.4a63f0259e44_create_rooms_table",
+        "peekOfCode": "def upgrade() -> None:\n    op.create_table(\n        \"rooms\",\n        sa.Column(\"id\", sa.Integer, primary_key=True, nullable=False),\n        sa.Column(\"room_name\", sa.String, unique=True, nullable=False),\n        sa.Column(\"room_no\", sa.String, unique=True, nullable=False),\n        sa.Column(\"room_type\", sa.String, nullable=False),\n        sa.Column(\"price\", sa.Float, nullable=False),\n        sa.Column(\"status\", sa.Enum(\"OPEN\", \"RESERVED\", name=\"roomstatus\"), nullable=False),\n    )",
+        "detail": "alembic.versions.4a63f0259e44_create_rooms_table",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.4a63f0259e44_create_rooms_table",
+        "description": "alembic.versions.4a63f0259e44_create_rooms_table",
+        "peekOfCode": "def downgrade() -> None:\n    op.drop_table(\"rooms\")",
+        "detail": "alembic.versions.4a63f0259e44_create_rooms_table",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
         "importPath": "alembic.versions.c92c814cc8ec_create_table",
         "description": "alembic.versions.c92c814cc8ec_create_table",
         "peekOfCode": "def upgrade() -> None:\n    # Create the posts table\n    op.create_table(\n        \"users\",\n        sa.Column(\"id\", sa.Integer, primary_key=True, nullable=False),\n        sa.Column(\"username\", sa.String, nullable=False),\n        sa.Column(\"email\", sa.String, nullable=False),\n        sa.Column(\"hashed_password\", sa.String, nullable=False),\n        sa.Column(\"is_active\", sa.Boolean, server_default=\"TRUE\", nullable=False),\n        sa.Column(\"is_admin\", sa.Boolean, server_default=\"TRUE\", nullable=False),",
@@ -1189,6 +1504,24 @@
         "description": "alembic.versions.c92c814cc8ec_create_table",
         "peekOfCode": "def downgrade() -> None:\n    # Drop the posts table\n    op.drop_table(\"users\")",
         "detail": "alembic.versions.c92c814cc8ec_create_table",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.f9bedd0c6bb6_create_reservations_table",
+        "description": "alembic.versions.f9bedd0c6bb6_create_reservations_table",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"rooms\",\n        sa.Column(\"id\", sa.Integer, primary_key=True, nullable=False),\n        sa.Column(\"guest_name\", sa.String, unique=True, nullable=False),\n        sa.Column(\"arrival_date\", sa.Integer, unique=True, nullable=False),\n        sa.Column(\"departure_date\", sa.String, nullable=False),\n        sa.Column(\"room_id\", sa.Integer, nullable=False),\n        sa.Column(\"status\", sa.Enum(\"OPEN\", \"RESERVED\", name=\"roomstatus\"), nullable=False),",
+        "detail": "alembic.versions.f9bedd0c6bb6_create_reservations_table",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.f9bedd0c6bb6_create_reservations_table",
+        "description": "alembic.versions.f9bedd0c6bb6_create_reservations_table",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table(\"resverations\")\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.f9bedd0c6bb6_create_reservations_table",
         "documentation": {}
     },
     {
@@ -1237,11 +1570,20 @@
         "documentation": {}
     },
     {
+        "label": "reserve_router",
+        "kind": 5,
+        "importPath": "app.reseverations.v1.route",
+        "description": "app.reseverations.v1.route",
+        "peekOfCode": "reserve_router = APIRouter(\n    prefix='/reservations',\n    tags=['Reservations']\n)\n@reserve_router.post(\"/\", status_code=status.HTTP_201_CREATED)\nasync def create_reservation(db: Session, payload: ReseverationCreate, login_user: User = Depends(get_current_user)):\n    new_reservation = ReseverationServices.create(db, payload, login_user)\n    return new_reservation\n@reserve_router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_all(db: Session, skip, limit):",
+        "detail": "app.reseverations.v1.route",
+        "documentation": {}
+    },
+    {
         "label": "ReseverationsStatus",
         "kind": 6,
         "importPath": "app.reseverations.v1.schema",
         "description": "app.reseverations.v1.schema",
-        "peekOfCode": "class ReseverationsStatus(Enum):\n    OPEN = \"open\"\n    RESERVED = \"reserved\"\nclass Reseveration(BaseModel):\n    guest_name: str\n    room_no: str\n    arrival_date: int\n    departure_date: int\nclass ReseverationCreate(Reseveration):\n    pass",
+        "peekOfCode": "class ReseverationsStatus(Enum):\n    OPEN = \"open\"\n    RESERVED = \"reserved\"\nclass Reseveration(BaseModel):\n    guest_name: str\n    room_no: str\n    arrival_date: int\n    departure_date: int\n    status:str \nclass ReseverationCreate(Reseveration):",
         "detail": "app.reseverations.v1.schema",
         "documentation": {}
     },
@@ -1250,7 +1592,7 @@
         "kind": 6,
         "importPath": "app.reseverations.v1.schema",
         "description": "app.reseverations.v1.schema",
-        "peekOfCode": "class Reseveration(BaseModel):\n    guest_name: str\n    room_no: str\n    arrival_date: int\n    departure_date: int\nclass ReseverationCreate(Reseveration):\n    pass\n    class config:\n        form_attribute: True\nclass ReseverationUpdate(Reseveration):",
+        "peekOfCode": "class Reseveration(BaseModel):\n    guest_name: str\n    room_no: str\n    arrival_date: int\n    departure_date: int\n    status:str \nclass ReseverationCreate(Reseveration):\n    pass\n    class config:\n        form_attribute: True",
         "detail": "app.reseverations.v1.schema",
         "documentation": {}
     },
@@ -1259,7 +1601,7 @@
         "kind": 6,
         "importPath": "app.reseverations.v1.schema",
         "description": "app.reseverations.v1.schema",
-        "peekOfCode": "class ReseverationCreate(Reseveration):\n    pass\n    class config:\n        form_attribute: True\nclass ReseverationUpdate(Reseveration):\n    guest_name: str\n    arrival_date: int\n    departure_date: int\nclass ReseverationDisplay(Reseveration):\n    id: int",
+        "peekOfCode": "class ReseverationCreate(Reseveration):\n    pass\n    class config:\n        form_attribute: True\nclass ReseverationUpdate(Reseveration):\n    guest_name: str\n    arrival_date: int\n    departure_date: int\n    status:str \nclass ReseverationDisplay(Reseveration):",
         "detail": "app.reseverations.v1.schema",
         "documentation": {}
     },
@@ -1268,7 +1610,7 @@
         "kind": 6,
         "importPath": "app.reseverations.v1.schema",
         "description": "app.reseverations.v1.schema",
-        "peekOfCode": "class ReseverationUpdate(Reseveration):\n    guest_name: str\n    arrival_date: int\n    departure_date: int\nclass ReseverationDisplay(Reseveration):\n    id: int",
+        "peekOfCode": "class ReseverationUpdate(Reseveration):\n    guest_name: str\n    arrival_date: int\n    departure_date: int\n    status:str \nclass ReseverationDisplay(Reseveration):\n    id: int",
         "detail": "app.reseverations.v1.schema",
         "documentation": {}
     },
@@ -1286,17 +1628,26 @@
         "kind": 6,
         "importPath": "app.reseverations.models",
         "description": "app.reseverations.models",
-        "peekOfCode": "class ReseverationsStatus(Enum):\n    OPEN = \"open\"\n    RESERVED = \"reserved\"\nclass Reseverations(Base):\n    __tablename__ = \"reserverations\"\n    id = Column(Integer, primary_key=True, index=True)\n    guest_name = Column(String, nullable=False)\n    arrival_date = Column(Date, nullable=False)\n    departure_date = Column(Date, nullable=False)\n    status = Column(Enum(ReseverationsStatus, name=\"order_status\"),default=\"reserved\", nullable=False)",
+        "peekOfCode": "class ReseverationsStatus(Enum):\n    OPEN = \"open\"\n    RESERVED = \"reserved\"\nclass Reseveration(Base):\n    __tablename__ = \"reservations\"\n    id = Column(Integer, primary_key=True, index=True)\n    guest_name = Column(String, nullable=False)\n    arrival_date = Column(Date, nullable=False)\n    departure_date = Column(Date, nullable=False)\n    status = Column(SQLAlchemyEnum(ReseverationsStatus), nullable=False, default=ReseverationsStatus.RESERVED)",
         "detail": "app.reseverations.models",
         "documentation": {}
     },
     {
-        "label": "Reseverations",
+        "label": "Reseveration",
         "kind": 6,
         "importPath": "app.reseverations.models",
         "description": "app.reseverations.models",
-        "peekOfCode": "class Reseverations(Base):\n    __tablename__ = \"reserverations\"\n    id = Column(Integer, primary_key=True, index=True)\n    guest_name = Column(String, nullable=False)\n    arrival_date = Column(Date, nullable=False)\n    departure_date = Column(Date, nullable=False)\n    status = Column(Enum(ReseverationsStatus, name=\"order_status\"),default=\"reserved\", nullable=False)\n    room_no = Column(String, ForeignKey(\"rooms.room_no\"), nullable=False)  # Match room_number as String in ForeignKey\n    room_id = Column(Integer, ForeignKey(\"rooms.id\"))\n    room = relationship(\"Room\", back_populates=\"reservations\")",
+        "peekOfCode": "class Reseveration(Base):\n    __tablename__ = \"reservations\"\n    id = Column(Integer, primary_key=True, index=True)\n    guest_name = Column(String, nullable=False)\n    arrival_date = Column(Date, nullable=False)\n    departure_date = Column(Date, nullable=False)\n    status = Column(SQLAlchemyEnum(ReseverationsStatus), nullable=False, default=ReseverationsStatus.RESERVED)\n    room_id = Column(Integer, ForeignKey(\"rooms.id\"))\n    # Relationship with Rooms\n    room = relationship(\"Rooms\", back_populates=\"reservations\")",
         "detail": "app.reseverations.models",
+        "documentation": {}
+    },
+    {
+        "label": "ReseverationServices",
+        "kind": 6,
+        "importPath": "app.reseverations.services",
+        "description": "app.reseverations.services",
+        "peekOfCode": "class ReseverationServices:\n    # check if resvered den return status along side the details\n    def get_reservation(self, db: Session, reserve_id: int):\n        reseveration = db.query(Reseveration).filter(Reseveration.id == reserve_id).first()\n        if not reseveration:\n            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Reservation not found\")\n        return reseveration\n    # check if room status is reserver or open.\n    def create(self, db: Session, payload: ReseverationCreate, current_user: int = None):\n        new_reseveration= Reseveration(**payload.model_dump(),",
+        "detail": "app.reseverations.services",
         "documentation": {}
     },
     {
@@ -1304,16 +1655,16 @@
         "kind": 5,
         "importPath": "app.rooms.v1.router",
         "description": "app.rooms.v1.router",
-        "peekOfCode": "room_router = APIRouter(\n    prefix='/rooms',\n    tags=['Rooms']\n)\n@room_router.post(\"/\", status_code=status.HTTP_201_CREATED)\nasync def create_room(db: Session, payload: RoomCreate, login_user: User = Depends(get_current_user)):\n    new_room = RoomServices.create_room(db, payload, login_user)\n    return new_room\n@room_router.get_all(\"/\", status_code=status.HTTP_200_OK)\nasync def get_all(db: Session, skip, limit):",
+        "peekOfCode": "room_router = APIRouter(\n    prefix='/rooms',\n    tags=['Rooms']\n)\n@room_router.post(\"/\", status_code=status.HTTP_201_CREATED)\nasync def create_room(db: Session, payload: RoomCreate, login_user: User = Depends(get_current_user)):\n    new_room = RoomServices.create_room(db, payload, login_user)\n    return new_room\n@room_router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_all(db: Session, skip, limit):",
         "detail": "app.rooms.v1.router",
         "documentation": {}
     },
     {
-        "label": "OrderStatus",
+        "label": "RoomStatus",
         "kind": 6,
         "importPath": "app.rooms.v1.schema",
         "description": "app.rooms.v1.schema",
-        "peekOfCode": "class OrderStatus(Enum):\n    OPEN = \"open\"\n    RESERVED = \"reserved\"\nclass Rooms(BaseModel):\n    room_name: str\n    room_no: str\n    room_type: str\n    price: float\nclass RoomCreate(Rooms):\n    pass",
+        "peekOfCode": "class RoomStatus(Enum):\n    OPEN = \"open\"\n    RESERVED = \"reserved\"\nclass Rooms(BaseModel):\n    room_name: str\n    room_no: str\n    room_type: str\n    price: float\n    status: str\nclass RoomCreate(Rooms):",
         "detail": "app.rooms.v1.schema",
         "documentation": {}
     },
@@ -1322,7 +1673,7 @@
         "kind": 6,
         "importPath": "app.rooms.v1.schema",
         "description": "app.rooms.v1.schema",
-        "peekOfCode": "class Rooms(BaseModel):\n    room_name: str\n    room_no: str\n    room_type: str\n    price: float\nclass RoomCreate(Rooms):\n    pass\n    class config:\n        form_attribute: True\nclass RoomUpdate(Rooms):",
+        "peekOfCode": "class Rooms(BaseModel):\n    room_name: str\n    room_no: str\n    room_type: str\n    price: float\n    status: str\nclass RoomCreate(Rooms):\n    pass\n    class config:\n        form_attribute: True",
         "detail": "app.rooms.v1.schema",
         "documentation": {}
     },
@@ -1367,7 +1718,7 @@
         "kind": 6,
         "importPath": "app.rooms.models",
         "description": "app.rooms.models",
-        "peekOfCode": "class Rooms(Base):\n    __tablename__ = \"rooms\"\n    id = Column(Integer, primary_key=True)\n    room_name = Column(String(50), unique=True)\n    room_no = Column(String(120), nullable=True)\n    room_type = Column(String(50), unique=True)\n    price = Column(DECIMAL(10, 2), nullable=False)\n    # Enum for status\n    status = Column(SQLAlchemyEnum(RoomStatus), nullable=False)\n    room = relationship(\"Reseverations\", back_populates=\"rooms\")",
+        "peekOfCode": "class Rooms(Base):\n    __tablename__ = \"rooms\"\n    id = Column(Integer, primary_key=True)\n    room_name = Column(String(50), unique=True)\n    room_no = Column(String(120), nullable=True)\n    room_type = Column(String(50), unique=True)\n    price = Column(DECIMAL(10, 2), nullable=False)\n    # Enum for status\n    status = Column(SQLAlchemyEnum(RoomStatus), nullable=False, default=RoomStatus.OPEN)\n    # Relationship with Reseverations",
         "detail": "app.rooms.models",
         "documentation": {}
     },
@@ -1376,7 +1727,7 @@
         "kind": 6,
         "importPath": "app.rooms.services",
         "description": "app.rooms.services",
-        "peekOfCode": "class RoomServices:\n    def get_room(self, db: Session, room_id: int):\n        return db.query(Rooms).filter(Rooms.id == room_id).first()\n    def create_room(self, db: Session, payload: RoomCreate, current_user: int = None):\n        db_user = Rooms(**payload.model_dump(),\n                        user_id = current_user)\n        db.add(db_user)\n        db.commit()\n        db.refresh(db_user)\n        return db_user",
+        "peekOfCode": "class RoomServices:\n    def get_room(self, db: Session, room_id: int):\n        # return db.query(Rooms).filter(Rooms.id == room_id).first()\n        room = db.query(Rooms).options(joinedload(Rooms.reservations)).filter(Rooms.id == room_id).first()\n        if not room:\n            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Room not found\")\n        return room\n    # check if resvered den return status along side the details\n    def get_reserve_room(self, db: Session, room_id: int):\n        room = self.get_room(db, room_id)",
         "detail": "app.rooms.services",
         "documentation": {}
     },
@@ -1403,7 +1754,7 @@
         "kind": 2,
         "importPath": "app.users.v1.router",
         "description": "app.users.v1.router",
-        "peekOfCode": "def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = authenticate_user(db, form_data.username, form_data.password)\n    if not user:\n        raise HTTPException(status_code=401, detail=\"Invalid credentials\")\n    access_token = create_access_token(data={\"sub\": user.username})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}\n@user_router.get(\"/users/\", response_model=list[UserDisplaySchema])\ndef get_users(\n    db: Session = Depends(get_db), \n    skip: int = 0, ",
+        "peekOfCode": "def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = authenticate_user(db, form_data.username, form_data.password)\n    if not user:\n        raise  HTTPException(\n            status_code=401,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )\n    access_token = create_access_token(data={\"sub\": user})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}",
         "detail": "app.users.v1.router",
         "documentation": {}
     },
@@ -1412,7 +1763,7 @@
         "kind": 2,
         "importPath": "app.users.v1.router",
         "description": "app.users.v1.router",
-        "peekOfCode": "def get_users(\n    db: Session = Depends(get_db), \n    skip: int = 0, \n    limit: int = 10, \n):\n    users = UserServices.get_all_users(db, skip, limit)\n    return users",
+        "peekOfCode": "def get_users(\n    db: Session = Depends(get_db), \n    skip: int = 0, \n    limit: int = 10, \n):\n    users = UserServices.get_all_users(db, skip, limit)\n    return users\n@user_router.get(\"/user_id\", response_model=UserDisplaySchema)\nasync def get_user(user_id: int, db: Session = Depends(get_db)):\n    user = UserServices.get_user_by_id(db, user_id)",
         "detail": "app.users.v1.router",
         "documentation": {}
     },
@@ -1583,7 +1934,7 @@
         "kind": 6,
         "importPath": "app.users.services",
         "description": "app.users.services",
-        "peekOfCode": "class UserServices:\n    @staticmethod\n    def create_user(db: Session, username: str, email: str, hashed_password: str):\n        db_user = User(username=username, email=email, hashed_password=hashed_password)\n        db.add(db_user)\n        db.commit()\n        db.refresh(db_user)\n        return db_user\n    @staticmethod\n    def get_user_by_username(db: Session, username: str):",
+        "peekOfCode": "class UserServices:\n    def create_user(self, db: Session, username: str, email: str, hashed_password: str):\n        db_user = User(username=username, email=email, hashed_password=hashed_password)\n        db.add(db_user)\n        db.commit()\n        db.refresh(db_user)\n        return db_user\n    def get_user_by_username(self, db: Session, username: str):\n        # check if the user exist\n        user = db.query(User).filter(User.id == username).first()",
         "detail": "app.users.services",
         "documentation": {}
     },

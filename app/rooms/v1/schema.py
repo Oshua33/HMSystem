@@ -1,3 +1,4 @@
+import fastapi
 from uuid import UUID
 from pydantic import BaseModel
 from enum import Enum
@@ -6,7 +7,7 @@ from datetime import datetime
 from typing import Optional
 from decimal import Decimal
 
-class OrderStatus(Enum):
+class RoomStatus(Enum):
     OPEN = "open"
     RESERVED = "reserved"
 
@@ -15,6 +16,7 @@ class Rooms(BaseModel):
     room_no: str
     room_type: str
     price: float
+    status: str
 
 class RoomCreate(Rooms):
     pass

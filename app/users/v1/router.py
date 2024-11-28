@@ -42,15 +42,18 @@ def signup(user: UserCreate, db: Session = Depends(get_db)):
 def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
     user = authenticate_user(db, form_data.username, form_data.password)
     if not user:
-        raise HTTPException(status_code=401, detail="Invalid credentials")
-
-    access_token = create_access_token(data={"sub": user.username})
+        raise  HTTPException(
+            status_code=401,
+            detail="Incorrect username or password",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    access_token = create_access_token(data={"sub": user})
     return {"access_token": access_token, "token_type": "bearer"}
 
 
 
     
-@user_router.get("/users/", response_model=list[UserDisplaySchema])
+@user_router.get("/", response_model=list[UserDisplaySchema])
 def get_users(
     db: Session = Depends(get_db), 
     skip: int = 0, 
@@ -58,4 +61,16 @@ def get_users(
 ):
     users = UserServices.get_all_users(db, skip, limit)
     return users
+
+@user_router.get("/user_id", response_model=UserDisplaySchema)
+async def get_user(user_id: int, db: Session = Depends(get_db)):
+    user = UserServices.get_user_by_id(db, user_id)
+    return user
+
+
+@user_router.put("/user_id", response_model=UserDisplaySchema)
+async def update_user(user_id: int, user: UserUpdate, db: Session = Depends(get_db)):
+    updated_user = UserServices.update_user(user_id, user, db)
+    return updated_user
+
 

@@ -1,3 +1,4 @@
+import fastapi
 from uuid import UUID
 from pydantic import BaseModel
 from enum import Enum
@@ -15,6 +16,7 @@ class Reseveration(BaseModel):
     room_no: str
     arrival_date: int
     departure_date: int
+    status:str 
 
 class ReseverationCreate(Reseveration):
     pass
@@ -26,6 +28,8 @@ class ReseverationUpdate(Reseveration):
     guest_name: str
     arrival_date: int
     departure_date: int
+    status:str 
+    
 
 class ReseverationDisplay(Reseveration):
     id: int
