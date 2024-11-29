@@ -18,11 +18,10 @@ try:
 except Exception as e:
     print(f"Connection failed: {e}")
 
-
-# engine = create_engine(SQLALCHEMY_DATABASE_URL)
-
-
 Base = declarative_base()
+# Base.metadata.create_all(bind=engine)
+
+
 
 def get_db():
     db = SessionLocal()
