@@ -1,37 +1,48 @@
-import fastapi
 from uuid import UUID
+import uuid
 from pydantic import BaseModel
 from enum import Enum
 from typing import List
-from datetime import datetime
 from typing import Optional
-from decimal import Decimal
 
 class RoomStatus(Enum):
-    OPEN = "open"
-    RESERVED = "reserved"
+    IS_AVAILABLE = 'IS_AVAILABLE'
+    RESERVED = 'RESERVED'
 
-class Rooms(BaseModel):
+
+class Room(BaseModel):
     room_name: str
     room_no: str
     room_type: str
     price: float
-    status: str
+    status: RoomStatus
+    
+    class Config:
+        orm_mode = True
 
-class RoomCreate(Rooms):
+class RoomCreate(Room):
     pass
 
     class config:
         form_attribute: True
         
-class RoomUpdate(Rooms):
+class RoomUpdate(Room):
+    room_name: Optional[str]
+    room_no: Optional[str]
+    room_type: Optional[str]
+    price: Optional[float]
+    status: Optional[RoomStatus]  
+        
+    class Config:
+        orm_mode = True
+
+class RoomDisplay(BaseModel):
+    id: int
     room_name: str
     room_no: str
     room_type: str
     price: float
-
-class RoomDisplay(Rooms):
-    id: int
+    status: RoomStatus
 
 
 

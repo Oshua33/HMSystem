@@ -8,3 +8,4 @@ venv
 /router.py
 /schemas.py
 /alembic.ini
+requirement.txt

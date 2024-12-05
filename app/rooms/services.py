@@ -1,16 +1,17 @@
-from fastapi import HTTPException, status
-from pydantic import HttpUrl
+from typing import List
+from fastapi import HTTPException, status, Depends
+# from pydantic import HttpUrl
+from sqlalchemy import select
 from sqlalchemy.orm import Session, joinedload
-from app.rooms.v1.schema import RoomCreate, RoomUpdate, Rooms, RoomStatus
-from app.users.v1.schema import UserCreate, CreateSpecialUser
+from app.rooms.v1.schema import RoomCreate, RoomUpdate, RoomStatus
 from app.rooms.models import Rooms
-from app.reseverations.models import ReseverationsStatus
-from app.reseverations.services import ReseverationServices
+from app.users.models import User
+from app.reservations.models import ReservationsStatus
 from app.users.auth import  get_current_user
-from app.reseverations.v1.schema import Reseveration
 
 
 class RoomServices:
+    
     
     def get_room(self, db: Session, room_id: int):
         # return db.query(Rooms).filter(Rooms.id == room_id).first()
@@ -27,28 +28,51 @@ class RoomServices:
         # for k, v in room_update.items():
         # for res in room.reservations.items():
         for k, v in room.reservations.items():
-            if room.status == ReseverationsStatus.RESERVED:
+            if room.status == ReservationsStatus.RESERVED:
                 return {
                     "room_id": room.id,
                     "room_name": room.room_name,
-                    "status": room.status[ReseverationsStatus.RESERVED]
-                }                
+                    "status": room.status[ReservationsStatus.RESERVED]
+                }     
 
-    # check if room status is reserver or open.
-    def create_room(self, db: Session, payload: RoomCreate, current_user: int = None):
-        # user = get_current_user(db, current_user)
-        # if not user:
-        #     raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="user not login")
-        db_user = Rooms(**payload.model_dump(),
-                        user_id = current_user)
-        db.add(db_user)
+
+    # @staticmethod
+    def create_room(self, db: Session, payload: RoomCreate, current_user: User):
+        room_data = payload.model_dump()  # or payload.dict()
+
+        # Convert status to its enum value (string)
+        room_data['status'] = room_data['status'].value
+
+        db_room = Rooms(**room_data, user_id=current_user.id)
+
+        db.add(db_room)
         db.commit()
-        db.refresh(db_user)
-        return db_user
+        db.refresh(db_room)
+        return db_room                
+
+    # @staticmethod
+    # def create_room( db: Session, payload: RoomCreate, current_user: User):
+    
+    #     # db_room = Rooms(**payload.model_dump(),
+    #     #                 user_id=current_user.id,
+    #     # )
+    #     db_room = Rooms(
+    #         room_name=payload.room_name,
+    #         room_no=payload.room_no,
+    #         room_type=payload.room_type,
+    #         price=payload.price,
+    #         status=payload.status.value,  # Pass the enum value as string
+    #         user_id=current_user.id
+    #     )
+
+    #     db.add(db_room)
+    #     db.commit()
+    #     db.refresh(db_room)
+    #     return db_room
     
     
-    def get_all_rooms(self, db: Session, skip: 0, limit: 10):
-        return db.query(Rooms).offset(skip).limit(limit).all()
+    # def get_all_rooms(self, db: Session, skip: 0, limit: 10):
+    #     return db.query(Rooms).offset(skip).limit(limit).all()
     
     # able to update a status of a room too.
     def update_room(self, db: Session, room_id:int, payload: RoomUpdate, current_user: int = None):
@@ -77,6 +101,45 @@ class RoomServices:
         db.commit()
         return {'messaage': "Room Deleted Succesfully"}
         
+    def get_all(self, db: Session, skip: int = 0, limit: int = 10) -> List[dict]:
+    # Build the query
+        query = select(Rooms.room_no, Rooms.room_type, Rooms.price).filter(
+            Rooms.room_no.isnot(None),   # Check for non-None room_no
+            Rooms.price.isnot(None),     # Check for non-None price
+            Rooms.room_type.isnot(None)  # Check for non-None room_type
+        ).offset(skip).limit(limit)
+
+        # Execute the query
+        result = db.execute(query)
+
+        # Fetch all results and return them as a list of dictionaries
+        rooms = result.fetchall()
+
+        # If you need to return the result as a list of dictionaries instead of tuples:
+        room_list = [{"room_no": room[0], "room_type": room[1], "price": room[2]} for room in rooms]
+        
+        return room_list
+    
+    # # get rooms  with only price nd no
+    # def get_all(self, db: Session, skip: 0, limit: 10):
+    #     rooms = db.query(Rooms).select(Rooms.room_no, Rooms.room_type, Rooms.price).offset(skip).limit(limit).all()
+    #     return rooms
+    
+    # def get_all(self, db: Session, skip: int = 0, limit: int = 10):
+    #     query = (
+    #         select(Rooms.room_no, Rooms.room_type, Rooms.price)
+    #         .offset(skip)
+    #         .limit(limit)
+    #         )
+    #     filtered_query  = query.filter(
+    #         Rooms.room_no != None,
+    #         Rooms.price != None,
+    #         Rooms.room_type != None
+    #     )
+    #     rooms = db.execute(filtered_query )
+    #     return rooms.fetchall()
     
     # update the status for a room from open to reserved
     #  say a room was reserved and lata cancle, the admin can update d status.
+    
+room_services = RoomServices()

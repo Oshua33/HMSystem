@@ -16,31 +16,7 @@
         "documentation": {}
     },
     {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
+        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -65,14 +41,6 @@
     },
     {
         "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -125,22 +93,6 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -209,14 +161,6 @@
         "documentation": {}
     },
     {
-        "label": "DECIMAL",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "Date",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -226,14 +170,6 @@
     },
     {
         "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -281,14 +217,6 @@
         "documentation": {}
     },
     {
-        "label": "Date",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "ForeignKey",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -297,7 +225,7 @@
         "documentation": {}
     },
     {
-        "label": "Boolean",
+        "label": "Enum",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -305,7 +233,7 @@
         "documentation": {}
     },
     {
-        "label": "Enum",
+        "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -330,22 +258,6 @@
     },
     {
         "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Date",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -417,27 +329,12 @@
         "documentation": {}
     },
     {
-        "label": "postgresql",
-        "importPath": "sqlalchemy.dialects",
-        "description": "sqlalchemy.dialects",
+        "label": "sys",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "sqlalchemy.dialects",
-        "documentation": {}
-    },
-    {
-        "label": "postgresql",
-        "importPath": "sqlalchemy.dialects",
-        "description": "sqlalchemy.dialects",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.dialects",
-        "documentation": {}
-    },
-    {
-        "label": "postgresql",
-        "importPath": "sqlalchemy.dialects",
-        "description": "sqlalchemy.dialects",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.dialects",
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
         "documentation": {}
     },
     {
@@ -458,116 +355,211 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
         "label": "Base",
-        "importPath": "database",
-        "description": "database",
+        "importPath": "app.database",
+        "description": "app.database",
         "isExtraImport": true,
-        "detail": "database",
+        "detail": "app.database",
         "documentation": {}
     },
     {
         "label": "get_db",
-        "importPath": "database",
-        "description": "database",
+        "importPath": "app.database",
+        "description": "app.database",
         "isExtraImport": true,
-        "detail": "database",
+        "detail": "app.database",
         "documentation": {}
     },
     {
         "label": "Base",
-        "importPath": "database",
-        "description": "database",
+        "importPath": "app.database",
+        "description": "app.database",
         "isExtraImport": true,
-        "detail": "database",
+        "detail": "app.database",
         "documentation": {}
     },
     {
         "label": "get_db",
-        "importPath": "database",
-        "description": "database",
+        "importPath": "app.database",
+        "description": "app.database",
         "isExtraImport": true,
-        "detail": "database",
+        "detail": "app.database",
         "documentation": {}
     },
     {
         "label": "Base",
-        "importPath": "database",
-        "description": "database",
+        "importPath": "app.database",
+        "description": "app.database",
         "isExtraImport": true,
-        "detail": "database",
+        "detail": "app.database",
         "documentation": {}
     },
     {
         "label": "get_db",
-        "importPath": "database",
-        "description": "database",
+        "importPath": "app.database",
+        "description": "app.database",
         "isExtraImport": true,
-        "detail": "database",
+        "detail": "app.database",
         "documentation": {}
     },
     {
         "label": "get_db",
-        "importPath": "database",
-        "description": "database",
+        "importPath": "app.database",
+        "description": "app.database",
         "isExtraImport": true,
-        "detail": "database",
+        "detail": "app.database",
         "documentation": {}
     },
     {
         "label": "Base",
-        "importPath": "database",
-        "description": "database",
+        "importPath": "app.database",
+        "description": "app.database",
         "isExtraImport": true,
-        "detail": "database",
+        "detail": "app.database",
         "documentation": {}
     },
     {
         "label": "Base",
-        "importPath": "database",
-        "description": "database",
+        "importPath": "app.database",
+        "description": "app.database",
         "isExtraImport": true,
-        "detail": "database",
+        "detail": "app.database",
         "documentation": {}
     },
     {
         "label": "get_db",
-        "importPath": "database",
-        "description": "database",
+        "importPath": "app.database",
+        "description": "app.database",
         "isExtraImport": true,
-        "detail": "database",
+        "detail": "app.database",
         "documentation": {}
     },
     {
-        "label": "fastapi",
-        "kind": 6,
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
         "isExtraImport": true,
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "detail": "fastapi",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "Rooms",
+        "importPath": "app.rooms.models",
+        "description": "app.rooms.models",
+        "isExtraImport": true,
+        "detail": "app.rooms.models",
+        "documentation": {}
+    },
+    {
+        "label": "Rooms",
+        "importPath": "app.rooms.models",
+        "description": "app.rooms.models",
+        "isExtraImport": true,
+        "detail": "app.rooms.models",
+        "documentation": {}
+    },
+    {
+        "label": "Rooms",
+        "importPath": "app.rooms.models",
+        "description": "app.rooms.models",
+        "isExtraImport": true,
+        "detail": "app.rooms.models",
+        "documentation": {}
+    },
+    {
+        "label": "Rooms",
+        "importPath": "app.rooms.models",
+        "description": "app.rooms.models",
+        "isExtraImport": true,
+        "detail": "app.rooms.models",
+        "documentation": {}
+    },
+    {
+        "label": "Reservations",
+        "importPath": "app.reservations.models",
+        "description": "app.reservations.models",
+        "isExtraImport": true,
+        "detail": "app.reservations.models",
+        "documentation": {}
+    },
+    {
+        "label": "Reservations",
+        "importPath": "app.reservations.models",
+        "description": "app.reservations.models",
+        "isExtraImport": true,
+        "detail": "app.reservations.models",
+        "documentation": {}
+    },
+    {
+        "label": "ReservationsStatus",
+        "importPath": "app.reservations.models",
+        "description": "app.reservations.models",
+        "isExtraImport": true,
+        "detail": "app.reservations.models",
         "documentation": {}
     },
     {
@@ -644,6 +636,14 @@
     },
     {
         "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -843,115 +843,59 @@
         "documentation": {}
     },
     {
-        "label": "ReseverationServices",
-        "importPath": "app.reseverations.services",
-        "description": "app.reseverations.services",
+        "label": "reservations_services",
+        "importPath": "app.reservations.services",
+        "description": "app.reservations.services",
         "isExtraImport": true,
-        "detail": "app.reseverations.services",
+        "detail": "app.reservations.services",
         "documentation": {}
     },
     {
-        "label": "ReseverationServices",
-        "importPath": "app.reseverations.services",
-        "description": "app.reseverations.services",
+        "label": "ReservationsCreate",
+        "importPath": "app.reservations.v1.schema",
+        "description": "app.reservations.v1.schema",
         "isExtraImport": true,
-        "detail": "app.reseverations.services",
+        "detail": "app.reservations.v1.schema",
         "documentation": {}
     },
     {
-        "label": "ReseverationCreate",
-        "importPath": "app.reseverations.v1.schema",
-        "description": "app.reseverations.v1.schema",
+        "label": "ReservationsUpdate",
+        "importPath": "app.reservations.v1.schema",
+        "description": "app.reservations.v1.schema",
         "isExtraImport": true,
-        "detail": "app.reseverations.v1.schema",
+        "detail": "app.reservations.v1.schema",
         "documentation": {}
     },
     {
-        "label": "ReseverationUpdate",
-        "importPath": "app.reseverations.v1.schema",
-        "description": "app.reseverations.v1.schema",
+        "label": "ReservationsStatus",
+        "importPath": "app.reservations.v1.schema",
+        "description": "app.reservations.v1.schema",
         "isExtraImport": true,
-        "detail": "app.reseverations.v1.schema",
+        "detail": "app.reservations.v1.schema",
         "documentation": {}
     },
     {
-        "label": "ReseverationDisplay",
-        "importPath": "app.reseverations.v1.schema",
-        "description": "app.reseverations.v1.schema",
+        "label": "ReservationsCreate",
+        "importPath": "app.reservations.v1.schema",
+        "description": "app.reservations.v1.schema",
         "isExtraImport": true,
-        "detail": "app.reseverations.v1.schema",
+        "detail": "app.reservations.v1.schema",
         "documentation": {}
     },
     {
-        "label": "ReseverationsStatus",
-        "importPath": "app.reseverations.v1.schema",
-        "description": "app.reseverations.v1.schema",
+        "label": "ReservationsUpdate",
+        "importPath": "app.reservations.v1.schema",
+        "description": "app.reservations.v1.schema",
         "isExtraImport": true,
-        "detail": "app.reseverations.v1.schema",
+        "detail": "app.reservations.v1.schema",
         "documentation": {}
     },
     {
-        "label": "ReseverationCreate",
-        "importPath": "app.reseverations.v1.schema",
-        "description": "app.reseverations.v1.schema",
+        "label": "ReservationsStatus",
+        "importPath": "app.reservations.v1.schema",
+        "description": "app.reservations.v1.schema",
         "isExtraImport": true,
-        "detail": "app.reseverations.v1.schema",
-        "documentation": {}
-    },
-    {
-        "label": "ReseverationUpdate",
-        "importPath": "app.reseverations.v1.schema",
-        "description": "app.reseverations.v1.schema",
-        "isExtraImport": true,
-        "detail": "app.reseverations.v1.schema",
-        "documentation": {}
-    },
-    {
-        "label": "Reseveration",
-        "importPath": "app.reseverations.v1.schema",
-        "description": "app.reseverations.v1.schema",
-        "isExtraImport": true,
-        "detail": "app.reseverations.v1.schema",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.users.models",
-        "description": "app.users.models",
-        "isExtraImport": true,
-        "detail": "app.users.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.users.models",
-        "description": "app.users.models",
-        "isExtraImport": true,
-        "detail": "app.users.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.users.models",
-        "description": "app.users.models",
-        "isExtraImport": true,
-        "detail": "app.users.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.users.models",
-        "description": "app.users.models",
-        "isExtraImport": true,
-        "detail": "app.users.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.users.models",
-        "description": "app.users.models",
-        "isExtraImport": true,
-        "detail": "app.users.models",
+        "detail": "app.reservations.v1.schema",
         "documentation": {}
     },
     {
@@ -1011,6 +955,15 @@
         "documentation": {}
     },
     {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
         "label": "UUID",
         "importPath": "uuid",
         "description": "uuid",
@@ -1036,14 +989,6 @@
     },
     {
         "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "HttpUrl",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -1107,7 +1052,7 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
+        "label": "date",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -1139,59 +1084,11 @@
         "documentation": {}
     },
     {
-        "label": "Decimal",
-        "importPath": "decimal",
-        "description": "decimal",
+        "label": "Room",
+        "importPath": "app.rooms.v1.schema",
+        "description": "app.rooms.v1.schema",
         "isExtraImport": true,
-        "detail": "decimal",
-        "documentation": {}
-    },
-    {
-        "label": "Decimal",
-        "importPath": "decimal",
-        "description": "decimal",
-        "isExtraImport": true,
-        "detail": "decimal",
-        "documentation": {}
-    },
-    {
-        "label": "Decimal",
-        "importPath": "decimal",
-        "description": "decimal",
-        "isExtraImport": true,
-        "detail": "decimal",
-        "documentation": {}
-    },
-    {
-        "label": "reseverations",
-        "importPath": "app",
-        "description": "app",
-        "isExtraImport": true,
-        "detail": "app",
-        "documentation": {}
-    },
-    {
-        "label": "Reseveration",
-        "importPath": "app.reseverations.models",
-        "description": "app.reseverations.models",
-        "isExtraImport": true,
-        "detail": "app.reseverations.models",
-        "documentation": {}
-    },
-    {
-        "label": "ReseverationsStatus",
-        "importPath": "app.reseverations.models",
-        "description": "app.reseverations.models",
-        "isExtraImport": true,
-        "detail": "app.reseverations.models",
-        "documentation": {}
-    },
-    {
-        "label": "RoomServices",
-        "importPath": "app.rooms.services",
-        "description": "app.rooms.services",
-        "isExtraImport": true,
-        "detail": "app.rooms.services",
+        "detail": "app.rooms.v1.schema",
         "documentation": {}
     },
     {
@@ -1220,14 +1117,6 @@
     },
     {
         "label": "RoomUpdate",
-        "importPath": "app.rooms.v1.schema",
-        "description": "app.rooms.v1.schema",
-        "isExtraImport": true,
-        "detail": "app.rooms.v1.schema",
-        "documentation": {}
-    },
-    {
-        "label": "Rooms",
         "importPath": "app.rooms.v1.schema",
         "description": "app.rooms.v1.schema",
         "isExtraImport": true,
@@ -1243,83 +1132,19 @@
         "documentation": {}
     },
     {
-        "label": "UserCreate",
-        "importPath": "app.users.v1.schema",
-        "description": "app.users.v1.schema",
+        "label": "room_services",
+        "importPath": "app.rooms.services",
+        "description": "app.rooms.services",
         "isExtraImport": true,
-        "detail": "app.users.v1.schema",
+        "detail": "app.rooms.services",
         "documentation": {}
     },
     {
-        "label": "CreateSpecialUser",
-        "importPath": "app.users.v1.schema",
-        "description": "app.users.v1.schema",
+        "label": "room_services",
+        "importPath": "app.rooms.services",
+        "description": "app.rooms.services",
         "isExtraImport": true,
-        "detail": "app.users.v1.schema",
-        "documentation": {}
-    },
-    {
-        "label": "UserBase",
-        "importPath": "app.users.v1.schema",
-        "description": "app.users.v1.schema",
-        "isExtraImport": true,
-        "detail": "app.users.v1.schema",
-        "documentation": {}
-    },
-    {
-        "label": "UserCreate",
-        "importPath": "app.users.v1.schema",
-        "description": "app.users.v1.schema",
-        "isExtraImport": true,
-        "detail": "app.users.v1.schema",
-        "documentation": {}
-    },
-    {
-        "label": "UserUpdate",
-        "importPath": "app.users.v1.schema",
-        "description": "app.users.v1.schema",
-        "isExtraImport": true,
-        "detail": "app.users.v1.schema",
-        "documentation": {}
-    },
-    {
-        "label": "UserDisplaySchema",
-        "importPath": "app.users.v1.schema",
-        "description": "app.users.v1.schema",
-        "isExtraImport": true,
-        "detail": "app.users.v1.schema",
-        "documentation": {}
-    },
-    {
-        "label": "UserCreate",
-        "importPath": "app.users.v1.schema",
-        "description": "app.users.v1.schema",
-        "isExtraImport": true,
-        "detail": "app.users.v1.schema",
-        "documentation": {}
-    },
-    {
-        "label": "CreateSpecialUser",
-        "importPath": "app.users.v1.schema",
-        "description": "app.users.v1.schema",
-        "isExtraImport": true,
-        "detail": "app.users.v1.schema",
-        "documentation": {}
-    },
-    {
-        "label": "UserUpdate",
-        "importPath": "app.users.v1.schema",
-        "description": "app.users.v1.schema",
-        "isExtraImport": true,
-        "detail": "app.users.v1.schema",
-        "documentation": {}
-    },
-    {
-        "label": "Rooms",
-        "importPath": "app.rooms.models",
-        "description": "app.rooms.models",
-        "isExtraImport": true,
-        "detail": "app.rooms.models",
+        "detail": "app.rooms.services",
         "documentation": {}
     },
     {
@@ -1363,7 +1188,63 @@
         "documentation": {}
     },
     {
+        "label": "UserBase",
+        "importPath": "app.users.v1.schema",
+        "description": "app.users.v1.schema",
+        "isExtraImport": true,
+        "detail": "app.users.v1.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.users.v1.schema",
+        "description": "app.users.v1.schema",
+        "isExtraImport": true,
+        "detail": "app.users.v1.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "importPath": "app.users.v1.schema",
+        "description": "app.users.v1.schema",
+        "isExtraImport": true,
+        "detail": "app.users.v1.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserDisplaySchema",
+        "importPath": "app.users.v1.schema",
+        "description": "app.users.v1.schema",
+        "isExtraImport": true,
+        "detail": "app.users.v1.schema",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSpecialUser",
+        "importPath": "app.users.v1.schema",
+        "description": "app.users.v1.schema",
+        "isExtraImport": true,
+        "detail": "app.users.v1.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "importPath": "app.users.v1.schema",
+        "description": "app.users.v1.schema",
+        "isExtraImport": true,
+        "detail": "app.users.v1.schema",
+        "documentation": {}
+    },
+    {
         "label": "UserServices",
+        "importPath": "app.users.services",
+        "description": "app.users.services",
+        "isExtraImport": true,
+        "detail": "app.users.services",
+        "documentation": {}
+    },
+    {
+        "label": "user_service",
         "importPath": "app.users.services",
         "description": "app.users.services",
         "isExtraImport": true,
@@ -1376,6 +1257,14 @@
         "description": "app.users.services",
         "isExtraImport": true,
         "detail": "app.users.services",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
         "documentation": {}
     },
     {
@@ -1403,11 +1292,35 @@
         "documentation": {}
     },
     {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "delete",
         "importPath": "httpx",
         "description": "httpx",
         "isExtraImport": true,
         "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
         "documentation": {}
     },
     {
@@ -1436,18 +1349,10 @@
     },
     {
         "label": "reserve_router",
-        "importPath": "app.reseverations.v1.router",
-        "description": "app.reseverations.v1.router",
+        "importPath": "app.reservations.v1.router",
+        "description": "app.reservations.v1.router",
         "isExtraImport": true,
-        "detail": "app.reseverations.v1.router",
-        "documentation": {}
-    },
-    {
-        "label": "declarative_base",
-        "importPath": "sqlalchemy.ext.declarative",
-        "description": "sqlalchemy.ext.declarative",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.declarative",
+        "detail": "app.reservations.v1.router",
         "documentation": {}
     },
     {
@@ -1489,55 +1394,19 @@
     {
         "label": "upgrade",
         "kind": 2,
-        "importPath": "alembic.versions.4a63f0259e44_create_rooms_table",
-        "description": "alembic.versions.4a63f0259e44_create_rooms_table",
-        "peekOfCode": "def upgrade() -> None:\n    op.create_table(\n        \"rooms\",\n        sa.Column(\"id\", sa.Integer, primary_key=True, nullable=False),\n        sa.Column(\"room_name\", sa.String, unique=True, nullable=False),\n        sa.Column(\"room_no\", sa.String, unique=True, nullable=False),\n        sa.Column(\"room_type\", sa.String, nullable=False),\n        sa.Column(\"price\", sa.Float, nullable=False),\n        sa.Column(\"status\", sa.Enum(\"OPEN\", \"RESERVED\", name=\"roomstatus\"), nullable=False),\n    )",
-        "detail": "alembic.versions.4a63f0259e44_create_rooms_table",
+        "importPath": "alembic.versions.f607fa50e2f1_initial_migration",
+        "description": "alembic.versions.f607fa50e2f1_initial_migration",
+        "peekOfCode": "def upgrade() -> None:\n    # Drop existing Enum types if they exist\n    try:\n        op.execute('DROP TYPE IF EXISTS roomstatus')\n    except Exception as e:\n        print(f\"Error dropping roomstatus type: {e}\")\n    try:\n        op.execute('DROP TYPE IF EXISTS reservationsstatus')\n    except Exception as e:\n        print(f\"Error dropping reservationsstatus type: {e}\")",
+        "detail": "alembic.versions.f607fa50e2f1_initial_migration",
         "documentation": {}
     },
     {
         "label": "downgrade",
         "kind": 2,
-        "importPath": "alembic.versions.4a63f0259e44_create_rooms_table",
-        "description": "alembic.versions.4a63f0259e44_create_rooms_table",
-        "peekOfCode": "def downgrade() -> None:\n    op.drop_table(\"rooms\")",
-        "detail": "alembic.versions.4a63f0259e44_create_rooms_table",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.c92c814cc8ec_create_table",
-        "description": "alembic.versions.c92c814cc8ec_create_table",
-        "peekOfCode": "def upgrade() -> None:\n    # Create the posts table\n    op.create_table(\n        \"users\",\n        sa.Column(\"id\", sa.Integer, primary_key=True, nullable=False),\n        sa.Column(\"username\", sa.String, nullable=False),\n        sa.Column(\"email\", sa.String, nullable=False),\n        sa.Column(\"hashed_password\", sa.String, nullable=False),\n        sa.Column(\"is_active\", sa.Boolean, server_default=\"TRUE\", nullable=False),\n        sa.Column(\"is_admin\", sa.Boolean, server_default=\"TRUE\", nullable=False),",
-        "detail": "alembic.versions.c92c814cc8ec_create_table",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.c92c814cc8ec_create_table",
-        "description": "alembic.versions.c92c814cc8ec_create_table",
-        "peekOfCode": "def downgrade() -> None:\n    # Drop the posts table\n    op.drop_table(\"users\")",
-        "detail": "alembic.versions.c92c814cc8ec_create_table",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.f9bedd0c6bb6_create_reservations_table",
-        "description": "alembic.versions.f9bedd0c6bb6_create_reservations_table",
-        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"reservations\",\n        sa.Column(\"id\", sa.Integer, primary_key=True, nullable=False),\n        sa.Column(\"guest_name\", sa.String, unique=True, nullable=False),\n        sa.Column(\"arrival_date\", sa.Integer, unique=True, nullable=False),\n        sa.Column(\"departure_date\", sa.String, nullable=False),\n        sa.Column(\"room_id\", sa.Integer, nullable=False),\n        sa.Column(\"status\", sa.Enum(\"OPEN\", \"RESERVED\", name=\"reseverationsstatus\"), nullable=False),",
-        "detail": "alembic.versions.f9bedd0c6bb6_create_reservations_table",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.f9bedd0c6bb6_create_reservations_table",
-        "description": "alembic.versions.f9bedd0c6bb6_create_reservations_table",
-        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table(\"resverations\")\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.f9bedd0c6bb6_create_reservations_table",
+        "importPath": "alembic.versions.f607fa50e2f1_initial_migration",
+        "description": "alembic.versions.f607fa50e2f1_initial_migration",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_reservations_id'), table_name='reservations')\n    op.drop_table('reservations')\n    op.drop_table('rooms')\n    op.drop_table('users')\n    op.drop_table('posts')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.f607fa50e2f1_initial_migration",
         "documentation": {}
     },
     {
@@ -1545,7 +1414,7 @@
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")\n    context.configure(\n        url=url,\n        target_metadata=target_metadata,\n        literal_binds=True,\n        dialect_opts={\"paramstyle\": \"named\"},\n    )\n    with context.begin_transaction():",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -1554,7 +1423,7 @@
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )\n    with connectable.connect() as connection:\n        context.configure(\n            connection=connection, target_metadata=target_metadata",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -1563,16 +1432,7 @@
         "kind": 5,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "config = context.config\n# add database url to alembic\ndatabase_url = os.environ.get(\"DATABASE_URL\")\nif not database_url:\n    raise ValueError(\"DB_URI environment is not set\")\nconfig.set_main_option('sqlalchemy.url', database_url)\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)",
-        "detail": "alembic.env",
-        "documentation": {}
-    },
-    {
-        "label": "database_url",
-        "kind": 5,
-        "importPath": "alembic.env",
-        "description": "alembic.env",
-        "peekOfCode": "database_url = os.environ.get(\"DATABASE_URL\")\nif not database_url:\n    raise ValueError(\"DB_URI environment is not set\")\nconfig.set_main_option('sqlalchemy.url', database_url)\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here, wich is d root of all db\n# for 'autogenerate' support",
+        "peekOfCode": "config = context.config\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# Provide the target_metadata\ntarget_metadata = Base.metadata\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")\n    context.configure(\n        url=url,",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -1581,89 +1441,98 @@
         "kind": 5,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "peekOfCode": "target_metadata = Base.metadata\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")\n    context.configure(\n        url=url,\n        target_metadata=target_metadata,\n        literal_binds=True,\n        dialect_opts={\"paramstyle\": \"named\"},\n    )",
         "detail": "alembic.env",
         "documentation": {}
     },
     {
         "label": "reserve_router",
         "kind": 5,
-        "importPath": "app.reseverations.v1.router",
-        "description": "app.reseverations.v1.router",
-        "peekOfCode": "reserve_router = APIRouter(\n    prefix='/reservations',\n    tags=['Reservations']\n)\n@reserve_router.post(\"/\", status_code=status.HTTP_201_CREATED)\nasync def create_reservation(db: Session, payload: ReseverationCreate, login_user: User = Depends(get_current_user)):\n    new_reservation = ReseverationServices.create(db, payload, login_user)\n    return new_reservation\n@reserve_router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_all(db: Session, skip, limit):",
-        "detail": "app.reseverations.v1.router",
+        "importPath": "app.reservations.v1.router",
+        "description": "app.reservations.v1.router",
+        "peekOfCode": "reserve_router = APIRouter(\n    prefix='/reservations',\n    tags=['Reservations']\n)\n@reserve_router.post(\"/\", status_code=status.HTTP_201_CREATED)\nasync def create_reservation(payload: ReservationsCreate, curent_user: User = Depends(get_current_user), db: Session = Depends(get_db)):\n    new_reservation = reservations_services.create_reservation(db, payload, curent_user)\n    return new_reservation\n@reserve_router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_all(skip, limit, db: Session = Depends(get_db)):",
+        "detail": "app.reservations.v1.router",
         "documentation": {}
     },
     {
-        "label": "ReseverationsStatus",
+        "label": "ReservationsStatus",
         "kind": 6,
-        "importPath": "app.reseverations.v1.schema",
-        "description": "app.reseverations.v1.schema",
-        "peekOfCode": "class ReseverationsStatus(Enum):\n    OPEN = \"open\"\n    RESERVED = \"reserved\"\nclass Reseveration(BaseModel):\n    guest_name: str\n    room_no: str\n    arrival_date: int\n    departure_date: int\n    status:str \nclass ReseverationCreate(Reseveration):",
-        "detail": "app.reseverations.v1.schema",
+        "importPath": "app.reservations.v1.schema",
+        "description": "app.reservations.v1.schema",
+        "peekOfCode": "class ReservationsStatus(Enum):\n    RESERVED = \"RESERVED\"\n    IS_AVAILABLE = \"IS_AVAILABLE\"\nclass Reservations(BaseModel):\n    guest_name: str\n    room_no: str\n    arrival_date: datetime  # Using datetime for better handling of date fields\n    departure_date: datetime\n    status: ReservationsStatus\n    class Config:",
+        "detail": "app.reservations.v1.schema",
         "documentation": {}
     },
     {
-        "label": "Reseveration",
+        "label": "Reservations",
         "kind": 6,
-        "importPath": "app.reseverations.v1.schema",
-        "description": "app.reseverations.v1.schema",
-        "peekOfCode": "class Reseveration(BaseModel):\n    guest_name: str\n    room_no: str\n    arrival_date: int\n    departure_date: int\n    status:str \nclass ReseverationCreate(Reseveration):\n    pass\n    class config:\n        form_attribute: True",
-        "detail": "app.reseverations.v1.schema",
+        "importPath": "app.reservations.v1.schema",
+        "description": "app.reservations.v1.schema",
+        "peekOfCode": "class Reservations(BaseModel):\n    guest_name: str\n    room_no: str\n    arrival_date: datetime  # Using datetime for better handling of date fields\n    departure_date: datetime\n    status: ReservationsStatus\n    class Config:\n        orm_mode = True\nclass ReservationsCreate(Reservations):\n    pass",
+        "detail": "app.reservations.v1.schema",
         "documentation": {}
     },
     {
-        "label": "ReseverationCreate",
+        "label": "ReservationsCreate",
         "kind": 6,
-        "importPath": "app.reseverations.v1.schema",
-        "description": "app.reseverations.v1.schema",
-        "peekOfCode": "class ReseverationCreate(Reseveration):\n    pass\n    class config:\n        form_attribute: True\nclass ReseverationUpdate(Reseveration):\n    guest_name: str\n    arrival_date: int\n    departure_date: int\n    status:str \nclass ReseverationDisplay(Reseveration):",
-        "detail": "app.reseverations.v1.schema",
+        "importPath": "app.reservations.v1.schema",
+        "description": "app.reservations.v1.schema",
+        "peekOfCode": "class ReservationsCreate(Reservations):\n    pass\n    class Config:  # Corrected `config` to `Config` and `orm_mode = True`\n        orm_mode = True  # Important for serialization and deserialization of ORM models\nclass ReservationsUpdate(Reservations):\n    guest_name: Optional[str]\n    arrival_date: Optional[datetime]  # Use datetime to handle dates correctly\n    departure_date: Optional[datetime] \n    status: Optional[ReservationsStatus]  # Change to Enum type to match the ReservationsStatus Enum\n    class Config:",
+        "detail": "app.reservations.v1.schema",
         "documentation": {}
     },
     {
-        "label": "ReseverationUpdate",
+        "label": "ReservationsUpdate",
         "kind": 6,
-        "importPath": "app.reseverations.v1.schema",
-        "description": "app.reseverations.v1.schema",
-        "peekOfCode": "class ReseverationUpdate(Reseveration):\n    guest_name: str\n    arrival_date: int\n    departure_date: int\n    status:str \nclass ReseverationDisplay(Reseveration):\n    id: int",
-        "detail": "app.reseverations.v1.schema",
+        "importPath": "app.reservations.v1.schema",
+        "description": "app.reservations.v1.schema",
+        "peekOfCode": "class ReservationsUpdate(Reservations):\n    guest_name: Optional[str]\n    arrival_date: Optional[datetime]  # Use datetime to handle dates correctly\n    departure_date: Optional[datetime] \n    status: Optional[ReservationsStatus]  # Change to Enum type to match the ReservationsStatus Enum\n    class Config:\n        orm_mode = True\nclass ReservationsDisplay(BaseModel):\n    id: int\n    room_name: str",
+        "detail": "app.reservations.v1.schema",
         "documentation": {}
     },
     {
-        "label": "ReseverationDisplay",
+        "label": "ReservationsDisplay",
         "kind": 6,
-        "importPath": "app.reseverations.v1.schema",
-        "description": "app.reseverations.v1.schema",
-        "peekOfCode": "class ReseverationDisplay(Reseveration):\n    id: int",
-        "detail": "app.reseverations.v1.schema",
+        "importPath": "app.reservations.v1.schema",
+        "description": "app.reservations.v1.schema",
+        "peekOfCode": "class ReservationsDisplay(BaseModel):\n    id: int\n    room_name: str\n    room_no: str\n    room_type: str\n    price: float\n    status: ReservationsStatus\n    class Config:\n        orm_mode = True  # Ensure that the ORM model can be serialized to a Pydantic model",
+        "detail": "app.reservations.v1.schema",
         "documentation": {}
     },
     {
-        "label": "ReseverationsStatus",
+        "label": "ReservationsStatus",
         "kind": 6,
-        "importPath": "app.reseverations.models",
-        "description": "app.reseverations.models",
-        "peekOfCode": "class ReseverationsStatus(Enum):\n    OPEN = \"open\"\n    RESERVED = \"reserved\"\nclass Reseveration(Base):\n    __tablename__ = \"reservations\"\n    id = Column(Integer, primary_key=True, index=True)\n    guest_name = Column(String, nullable=False)\n    arrival_date = Column(Date, nullable=False)\n    departure_date = Column(Date, nullable=False)\n    status = Column(SQLAlchemyEnum(ReseverationsStatus), nullable=False, default=ReseverationsStatus.RESERVED)",
-        "detail": "app.reseverations.models",
+        "importPath": "app.reservations.models",
+        "description": "app.reservations.models",
+        "peekOfCode": "class ReservationsStatus(Enum):\n    IS_AVAILABLE = \"is_available\"\n    RESERVED = \"reserved\"\nclass Reservations(Base):  # Correct class name\n    __tablename__ = \"reservations\"\n    id = Column(Integer, primary_key=True, index=True)\n    guest_name = Column(String, nullable=False)\n    arrival_date = Column(Date, nullable=False)\n    departure_date = Column(Date, nullable=False)\n    status = Column(SQLAlchemyEnum(ReservationsStatus), nullable=False, default=ReservationsStatus.RESERVED)",
+        "detail": "app.reservations.models",
         "documentation": {}
     },
     {
-        "label": "Reseveration",
+        "label": "Reservations",
         "kind": 6,
-        "importPath": "app.reseverations.models",
-        "description": "app.reseverations.models",
-        "peekOfCode": "class Reseveration(Base):\n    __tablename__ = \"reservations\"\n    id = Column(Integer, primary_key=True, index=True)\n    guest_name = Column(String, nullable=False)\n    arrival_date = Column(Date, nullable=False)\n    departure_date = Column(Date, nullable=False)\n    status = Column(SQLAlchemyEnum(ReseverationsStatus), nullable=False, default=ReseverationsStatus.RESERVED)\n    room_id = Column(Integer, ForeignKey(\"rooms.id\"))\n    # Relationship with Rooms\n    room = relationship(\"Rooms\", back_populates=\"reservations\")",
-        "detail": "app.reseverations.models",
+        "importPath": "app.reservations.models",
+        "description": "app.reservations.models",
+        "peekOfCode": "class Reservations(Base):  # Correct class name\n    __tablename__ = \"reservations\"\n    id = Column(Integer, primary_key=True, index=True)\n    guest_name = Column(String, nullable=False)\n    arrival_date = Column(Date, nullable=False)\n    departure_date = Column(Date, nullable=False)\n    status = Column(SQLAlchemyEnum(ReservationsStatus), nullable=False, default=ReservationsStatus.RESERVED)\n    user_id = Column(Integer, ForeignKey(\"users.id\"), nullable=False)\n    room_id = Column(Integer, ForeignKey(\"rooms.id\"))\n    # Relationships",
+        "detail": "app.reservations.models",
         "documentation": {}
     },
     {
-        "label": "ReseverationServices",
+        "label": "ReservationsServices",
         "kind": 6,
-        "importPath": "app.reseverations.services",
-        "description": "app.reseverations.services",
-        "peekOfCode": "class ReseverationServices:\n    # check if resvered den return status along side the details\n    def get_reservation(self, db: Session, reserve_id: int):\n        reseveration = db.query(Reseveration).filter(Reseveration.id == reserve_id).first()\n        if not reseveration:\n            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Reservation not found\")\n        return reseveration\n    # check if room status is reserver or open.\n    def create(self, db: Session, payload: ReseverationCreate, current_user: int = None):\n        new_reseveration= Reseveration(**payload.model_dump(),",
-        "detail": "app.reseverations.services",
+        "importPath": "app.reservations.services",
+        "description": "app.reservations.services",
+        "peekOfCode": "class ReservationsServices:\n    # check if resvered den return status along side the details\n    def get_reservations(self, db: Session, reserve_id: int):\n        reservations = db.query(Reservations).filter(Reservations.id == reserve_id).first()\n        if not reservations:\n            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Reservation not found\")\n        return reservations\n    # # check if room status is reserver or open.\n    # def create(self, db: Session, payload: ReservationsCreate, current_user: User):\n    #     reservations_data = payload.model_dump() ",
+        "detail": "app.reservations.services",
+        "documentation": {}
+    },
+    {
+        "label": "reservations_services",
+        "kind": 5,
+        "importPath": "app.reservations.services",
+        "description": "app.reservations.services",
+        "peekOfCode": "reservations_services = ReservationsServices()",
+        "detail": "app.reservations.services",
         "documentation": {}
     },
     {
@@ -1671,7 +1540,7 @@
         "kind": 5,
         "importPath": "app.rooms.v1.router",
         "description": "app.rooms.v1.router",
-        "peekOfCode": "room_router = APIRouter(\n    prefix='/rooms',\n    tags=['Rooms']\n)\n@room_router.post(\"/\", status_code=status.HTTP_201_CREATED)\nasync def create_room(db: Session, payload: RoomCreate, login_user: User = Depends(get_current_user)):\n    new_room = RoomServices.create_room(db, payload, login_user)\n    return new_room\n@room_router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_all(db: Session, skip, limit):",
+        "peekOfCode": "room_router = APIRouter(\n    # prefix='/rooms',\n    tags=['Rooms']\n)\n@room_router.post(\"/\", status_code=status.HTTP_201_CREATED)\nasync def create_room(payload: RoomCreate, current_user: User = Depends(get_current_user), db: Session = Depends(get_db)):\n    new_room = room_services.create_room(db, payload, current_user)\n    return new_room\n    # return new_room\n# @room_router.get(\"/\", status_code=status.HTTP_200_OK)",
         "detail": "app.rooms.v1.router",
         "documentation": {}
     },
@@ -1680,16 +1549,16 @@
         "kind": 6,
         "importPath": "app.rooms.v1.schema",
         "description": "app.rooms.v1.schema",
-        "peekOfCode": "class RoomStatus(Enum):\n    OPEN = \"open\"\n    RESERVED = \"reserved\"\nclass Rooms(BaseModel):\n    room_name: str\n    room_no: str\n    room_type: str\n    price: float\n    status: str\nclass RoomCreate(Rooms):",
+        "peekOfCode": "class RoomStatus(Enum):\n    IS_AVAILABLE = 'IS_AVAILABLE'\n    RESERVED = 'RESERVED'\nclass Room(BaseModel):\n    room_name: str\n    room_no: str\n    room_type: str\n    price: float\n    status: RoomStatus\n    class Config:",
         "detail": "app.rooms.v1.schema",
         "documentation": {}
     },
     {
-        "label": "Rooms",
+        "label": "Room",
         "kind": 6,
         "importPath": "app.rooms.v1.schema",
         "description": "app.rooms.v1.schema",
-        "peekOfCode": "class Rooms(BaseModel):\n    room_name: str\n    room_no: str\n    room_type: str\n    price: float\n    status: str\nclass RoomCreate(Rooms):\n    pass\n    class config:\n        form_attribute: True",
+        "peekOfCode": "class Room(BaseModel):\n    room_name: str\n    room_no: str\n    room_type: str\n    price: float\n    status: RoomStatus\n    class Config:\n        orm_mode = True\nclass RoomCreate(Room):\n    pass",
         "detail": "app.rooms.v1.schema",
         "documentation": {}
     },
@@ -1698,7 +1567,7 @@
         "kind": 6,
         "importPath": "app.rooms.v1.schema",
         "description": "app.rooms.v1.schema",
-        "peekOfCode": "class RoomCreate(Rooms):\n    pass\n    class config:\n        form_attribute: True\nclass RoomUpdate(Rooms):\n    room_name: str\n    room_no: str\n    room_type: str\n    price: float\nclass RoomDisplay(Rooms):",
+        "peekOfCode": "class RoomCreate(Room):\n    pass\n    class config:\n        form_attribute: True\nclass RoomUpdate(Room):\n    room_name: Optional[str]\n    room_no: Optional[str]\n    room_type: Optional[str]\n    price: Optional[float]\n    status: Optional[RoomStatus]  ",
         "detail": "app.rooms.v1.schema",
         "documentation": {}
     },
@@ -1707,7 +1576,7 @@
         "kind": 6,
         "importPath": "app.rooms.v1.schema",
         "description": "app.rooms.v1.schema",
-        "peekOfCode": "class RoomUpdate(Rooms):\n    room_name: str\n    room_no: str\n    room_type: str\n    price: float\nclass RoomDisplay(Rooms):\n    id: int",
+        "peekOfCode": "class RoomUpdate(Room):\n    room_name: Optional[str]\n    room_no: Optional[str]\n    room_type: Optional[str]\n    price: Optional[float]\n    status: Optional[RoomStatus]  \n    class Config:\n        orm_mode = True\nclass RoomDisplay(BaseModel):\n    id: int",
         "detail": "app.rooms.v1.schema",
         "documentation": {}
     },
@@ -1716,7 +1585,7 @@
         "kind": 6,
         "importPath": "app.rooms.v1.schema",
         "description": "app.rooms.v1.schema",
-        "peekOfCode": "class RoomDisplay(Rooms):\n    id: int",
+        "peekOfCode": "class RoomDisplay(BaseModel):\n    id: int\n    room_name: str\n    room_no: str\n    room_type: str\n    price: float\n    status: RoomStatus",
         "detail": "app.rooms.v1.schema",
         "documentation": {}
     },
@@ -1725,7 +1594,7 @@
         "kind": 6,
         "importPath": "app.rooms.models",
         "description": "app.rooms.models",
-        "peekOfCode": "class RoomStatus(Enum):\n    OPEN = \"open\"\n    RESERVED = \"reserved\"\nclass Rooms(Base):\n    __tablename__ = \"rooms\"\n    id = Column(Integer, primary_key=True)\n    room_name = Column(String(50), unique=True)\n    room_no = Column(String(120), nullable=True)\n    room_type = Column(String(50), unique=True)\n    price = Column(DECIMAL(10, 2), nullable=False)",
+        "peekOfCode": "class RoomStatus(Enum):\n    IS_AVAILABLE = \"is_available\"\n    RESERVED = \"reserved\"\nclass Rooms(Base):\n    __tablename__ = \"rooms\"\n    id = Column(Integer, primary_key=True)\n    room_name = Column(String(50), unique=True)\n    room_no = Column(String(120), nullable=True)\n    room_type = Column(String(50), unique=True)\n    price = Column(DECIMAL(10, 2), nullable=False)",
         "detail": "app.rooms.models",
         "documentation": {}
     },
@@ -1734,7 +1603,7 @@
         "kind": 6,
         "importPath": "app.rooms.models",
         "description": "app.rooms.models",
-        "peekOfCode": "class Rooms(Base):\n    __tablename__ = \"rooms\"\n    id = Column(Integer, primary_key=True)\n    room_name = Column(String(50), unique=True)\n    room_no = Column(String(120), nullable=True)\n    room_type = Column(String(50), unique=True)\n    price = Column(DECIMAL(10, 2), nullable=False)\n    # Enum for status\n    status = Column(SQLAlchemyEnum(RoomStatus), nullable=False, default=RoomStatus.OPEN)\n    # Relationship with Reseverations",
+        "peekOfCode": "class Rooms(Base):\n    __tablename__ = \"rooms\"\n    id = Column(Integer, primary_key=True)\n    room_name = Column(String(50), unique=True)\n    room_no = Column(String(120), nullable=True)\n    room_type = Column(String(50), unique=True)\n    price = Column(DECIMAL(10, 2), nullable=False)\n    user_id = Column(Integer, ForeignKey(\"users.id\"), nullable=False)\n    status = Column(SQLAlchemyEnum(RoomStatus), nullable=False, default=RoomStatus.IS_AVAILABLE)\n    # Relationships",
         "detail": "app.rooms.models",
         "documentation": {}
     },
@@ -1748,12 +1617,12 @@
         "documentation": {}
     },
     {
-        "label": "get_users",
-        "kind": 2,
-        "importPath": "app.users.v1.router",
-        "description": "app.users.v1.router",
-        "peekOfCode": "def get_users(db: Session = Depends(get_db)):\n    users = db.query(User).all()\n    return  users\n#logger = get_logger(__name__)\n@user_router.post(\"/create_user/\")\ndef signup(user: UserCreate, db: Session = Depends(get_db)):\n    db_user = UserServices.get_user_by_username(db, username=user.username)\n    hashed_password =pwd_context.hash(user.password)\n    if db_user:\n        raise HTTPException(status_code=400, detail=\"Username already registered\")",
-        "detail": "app.users.v1.router",
+        "label": "room_services",
+        "kind": 5,
+        "importPath": "app.rooms.services",
+        "description": "app.rooms.services",
+        "peekOfCode": "room_services = RoomServices()",
+        "detail": "app.rooms.services",
         "documentation": {}
     },
     {
@@ -1761,7 +1630,7 @@
         "kind": 2,
         "importPath": "app.users.v1.router",
         "description": "app.users.v1.router",
-        "peekOfCode": "def signup(user: UserCreate, db: Session = Depends(get_db)):\n    db_user = UserServices.get_user_by_username(db, username=user.username)\n    hashed_password =pwd_context.hash(user.password)\n    if db_user:\n        raise HTTPException(status_code=400, detail=\"Username already registered\")\n    return UserServices.create_user(db=db, username=user.username, email=user.email, hashed_password=hashed_password)\n@user_router.post(\"/token\")\ndef login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = authenticate_user(db, form_data.username, form_data.password)\n    if not user:",
+        "peekOfCode": "def signup(user: UserCreate, db: Session = Depends(get_db), user_service = Depends(UserServices)):\n    db_user = user_service.get_user_by_username(db=db, username=user.username)\n    hashed_password =pwd_context.hash(user.password)\n    if db_user:\n        raise HTTPException(status_code=400, detail=\"Username already registered\")\n    return UserServices.create_user(db=db, username=user.username, email=user.email, hashed_password=hashed_password)\n@user_router.post(\"/token\")\ndef login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = authenticate_user(db, form_data.username, form_data.password)\n    if not user:",
         "detail": "app.users.v1.router",
         "documentation": {}
     },
@@ -1770,7 +1639,7 @@
         "kind": 2,
         "importPath": "app.users.v1.router",
         "description": "app.users.v1.router",
-        "peekOfCode": "def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = authenticate_user(db, form_data.username, form_data.password)\n    if not user:\n        raise  HTTPException(\n            status_code=401,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )\n    access_token = create_access_token(data={\"sub\": user})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}",
+        "peekOfCode": "def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = authenticate_user(db, form_data.username, form_data.password)\n    if not user:\n        raise  HTTPException(\n            status_code=401,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )\n    access_token = create_access_token(data={\"sub\": user.username})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}",
         "detail": "app.users.v1.router",
         "documentation": {}
     },
@@ -1779,7 +1648,25 @@
         "kind": 2,
         "importPath": "app.users.v1.router",
         "description": "app.users.v1.router",
-        "peekOfCode": "def get_users(\n    db: Session = Depends(get_db), \n    skip: int = 0, \n    limit: int = 10, \n):\n    users = UserServices.get_all_users(db, skip, limit)\n    return users\n@user_router.get(\"/user_id\", response_model=UserDisplaySchema)\nasync def get_user(user_id: int, db: Session = Depends(get_db)):\n    user = UserServices.get_user_by_id(db, user_id)",
+        "peekOfCode": "def get_users(\n    skip: int = 0, \n    limit: int = 10, \n    db: Session = Depends(get_db), \n    user_service = Depends(UserServices)\n):\n    users = user_service.get_all(db, skip, limit)\n    return users\n@user_router.get(\"/user_id\")\ndef get_user(user_id: int, db: Session = Depends(get_db), user_service = Depends(UserServices)):",
+        "detail": "app.users.v1.router",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "app.users.v1.router",
+        "description": "app.users.v1.router",
+        "peekOfCode": "def get_user(user_id: int, db: Session = Depends(get_db), user_service = Depends(UserServices)):\n    user = user_service.get_user_by_id(db, user_id)\n    return user\n@user_router.put(\"/user_id\")\ndef update_user(user_id: int, user: UserUpdate, db: Session = Depends(get_db), user_service = Depends(UserServices)):\n    updated_user = user_service.update_user(user_id, user, db)\n    return updated_user",
+        "detail": "app.users.v1.router",
+        "documentation": {}
+    },
+    {
+        "label": "update_user",
+        "kind": 2,
+        "importPath": "app.users.v1.router",
+        "description": "app.users.v1.router",
+        "peekOfCode": "def update_user(user_id: int, user: UserUpdate, db: Session = Depends(get_db), user_service = Depends(UserServices)):\n    updated_user = user_service.update_user(user_id, user, db)\n    return updated_user",
         "detail": "app.users.v1.router",
         "documentation": {}
     },
@@ -1788,7 +1675,7 @@
         "kind": 5,
         "importPath": "app.users.v1.router",
         "description": "app.users.v1.router",
-        "peekOfCode": "user_router = APIRouter(\n    prefix='/users',\n    tags=['Users']\n)\n@user_router.get('/', response_model=List[UserBase])\ndef get_users(db: Session = Depends(get_db)):\n    users = db.query(User).all()\n    return  users\n#logger = get_logger(__name__)\n@user_router.post(\"/create_user/\")",
+        "peekOfCode": "user_router = APIRouter(\n    # prefix='/users',\n    # tags=['Users']\n)\n# @user_router.get('/', response_model=List[UserBase])\n# async def get_users(db: Session = Depends(get_db)):\n#     users = db.query(User).all()\n#     return  users\n#logger = get_logger(__name__)\n@user_router.post(\"/create_user/\")",
         "detail": "app.users.v1.router",
         "documentation": {}
     },
@@ -1797,7 +1684,7 @@
         "kind": 5,
         "importPath": "app.users.v1.router",
         "description": "app.users.v1.router",
-        "peekOfCode": "#logger = get_logger(__name__)\n@user_router.post(\"/create_user/\")\ndef signup(user: UserCreate, db: Session = Depends(get_db)):\n    db_user = UserServices.get_user_by_username(db, username=user.username)\n    hashed_password =pwd_context.hash(user.password)\n    if db_user:\n        raise HTTPException(status_code=400, detail=\"Username already registered\")\n    return UserServices.create_user(db=db, username=user.username, email=user.email, hashed_password=hashed_password)\n@user_router.post(\"/token\")\ndef login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):",
+        "peekOfCode": "#logger = get_logger(__name__)\n@user_router.post(\"/create_user/\")\ndef signup(user: UserCreate, db: Session = Depends(get_db), user_service = Depends(UserServices)):\n    db_user = user_service.get_user_by_username(db=db, username=user.username)\n    hashed_password =pwd_context.hash(user.password)\n    if db_user:\n        raise HTTPException(status_code=400, detail=\"Username already registered\")\n    return UserServices.create_user(db=db, username=user.username, email=user.email, hashed_password=hashed_password)\n@user_router.post(\"/token\")\ndef login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):",
         "detail": "app.users.v1.router",
         "documentation": {}
     },
@@ -1851,7 +1738,7 @@
         "kind": 2,
         "importPath": "app.users.auth",
         "description": "app.users.auth",
-        "peekOfCode": "def verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, username: str, password: str):\n    user = UserServices.get_user_by_username(db, username)\n    if not user or not verify_password(password, user.hashed_password):\n        return None\n    return user\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):",
+        "peekOfCode": "def verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, username: str, password: str, ):\n    # user = user_service.get_user_by_username(db, username) user_service = Depends(UserServices)\n    user = db.query(User).filter(User.username == username).first()  \n    if not user or not verify_password(password, user.hashed_password):\n        return None\n    return user",
         "detail": "app.users.auth",
         "documentation": {}
     },
@@ -1860,7 +1747,7 @@
         "kind": 2,
         "importPath": "app.users.auth",
         "description": "app.users.auth",
-        "peekOfCode": "def get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, username: str, password: str):\n    user = UserServices.get_user_by_username(db, username)\n    if not user or not verify_password(password, user.hashed_password):\n        return None\n    return user\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))",
+        "peekOfCode": "def get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, username: str, password: str, ):\n    # user = user_service.get_user_by_username(db, username) user_service = Depends(UserServices)\n    user = db.query(User).filter(User.username == username).first()  \n    if not user or not verify_password(password, user.hashed_password):\n        return None\n    return user\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()",
         "detail": "app.users.auth",
         "documentation": {}
     },
@@ -1869,7 +1756,7 @@
         "kind": 2,
         "importPath": "app.users.auth",
         "description": "app.users.auth",
-        "peekOfCode": "def authenticate_user(db: Session, username: str, password: str):\n    user = UserServices.get_user_by_username(db, username)\n    if not user or not verify_password(password, user.hashed_password):\n        return None\n    return user\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))\n    to_encode.update({\"exp\": expire})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)",
+        "peekOfCode": "def authenticate_user(db: Session, username: str, password: str, ):\n    # user = user_service.get_user_by_username(db, username) user_service = Depends(UserServices)\n    user = db.query(User).filter(User.username == username).first()  \n    if not user or not verify_password(password, user.hashed_password):\n        return None\n    return user\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))\n    to_encode.update({\"exp\": expire})",
         "detail": "app.users.auth",
         "documentation": {}
     },
@@ -1896,7 +1783,7 @@
         "kind": 5,
         "importPath": "app.users.auth",
         "description": "app.users.auth",
-        "peekOfCode": "SECRET_KEY = os.getenv('SECRET_KEY')\nALGORITHM = os.getenv('ALGORITHM', 'HS256')\nACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES', 30))\n# Cryptography context\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/token\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)",
+        "peekOfCode": "SECRET_KEY = os.getenv('SECRET_KEY')\nALGORITHM = os.getenv('ALGORITHM', 'HS256')\nACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES', 30))\n# Cryptography context\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/users/token\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)",
         "detail": "app.users.auth",
         "documentation": {}
     },
@@ -1905,7 +1792,7 @@
         "kind": 5,
         "importPath": "app.users.auth",
         "description": "app.users.auth",
-        "peekOfCode": "ALGORITHM = os.getenv('ALGORITHM', 'HS256')\nACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES', 30))\n# Cryptography context\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/token\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, username: str, password: str):",
+        "peekOfCode": "ALGORITHM = os.getenv('ALGORITHM', 'HS256')\nACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES', 30))\n# Cryptography context\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/users/token\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, username: str, password: str, ):",
         "detail": "app.users.auth",
         "documentation": {}
     },
@@ -1914,7 +1801,7 @@
         "kind": 5,
         "importPath": "app.users.auth",
         "description": "app.users.auth",
-        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES', 30))\n# Cryptography context\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/token\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, username: str, password: str):\n    user = UserServices.get_user_by_username(db, username)",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES', 30))\n# Cryptography context\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/users/token\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, username: str, password: str, ):\n    # user = user_service.get_user_by_username(db, username) user_service = Depends(UserServices)",
         "detail": "app.users.auth",
         "documentation": {}
     },
@@ -1923,7 +1810,7 @@
         "kind": 5,
         "importPath": "app.users.auth",
         "description": "app.users.auth",
-        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/token\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, username: str, password: str):\n    user = UserServices.get_user_by_username(db, username)\n    if not user or not verify_password(password, user.hashed_password):\n        return None",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/users/token\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, username: str, password: str, ):\n    # user = user_service.get_user_by_username(db, username) user_service = Depends(UserServices)\n    user = db.query(User).filter(User.username == username).first()  \n    if not user or not verify_password(password, user.hashed_password):",
         "detail": "app.users.auth",
         "documentation": {}
     },
@@ -1932,7 +1819,7 @@
         "kind": 5,
         "importPath": "app.users.auth",
         "description": "app.users.auth",
-        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/token\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, username: str, password: str):\n    user = UserServices.get_user_by_username(db, username)\n    if not user or not verify_password(password, user.hashed_password):\n        return None\n    return user",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/users/token\")\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password: str) -> str:\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, username: str, password: str, ):\n    # user = user_service.get_user_by_username(db, username) user_service = Depends(UserServices)\n    user = db.query(User).filter(User.username == username).first()  \n    if not user or not verify_password(password, user.hashed_password):\n        return None",
         "detail": "app.users.auth",
         "documentation": {}
     },
@@ -1941,7 +1828,7 @@
         "kind": 6,
         "importPath": "app.users.models",
         "description": "app.users.models",
-        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True)\n    username = Column(String(50), unique=True)\n    email = Column(String(120), nullable=True)\n    hashed_password = Column(String, nullable=False)\n    is_active = Column(Boolean, default=True, nullable=False)\n    is_admin = Column(Boolean, default=True, nullable=False)\n    is_staff = Column(Boolean, default=True, nullable=False)",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True)\n    username = Column(String(50), unique=True)\n    email = Column(String(120), nullable=True)\n    hashed_password = Column(String, nullable=False)\n    is_active = Column(Boolean, default=True, nullable=False)\n    is_admin = Column(Boolean, default=True, nullable=False)\n    is_staff = Column(Boolean, default=True, nullable=False)\n    # Relationships",
         "detail": "app.users.models",
         "documentation": {}
     },
@@ -1950,8 +1837,44 @@
         "kind": 6,
         "importPath": "app.users.services",
         "description": "app.users.services",
-        "peekOfCode": "class UserServices:\n    def create_user(self, db: Session, username: str, email: str, hashed_password: str):\n        db_user = User(username=username, email=email, hashed_password=hashed_password)\n        db.add(db_user)\n        db.commit()\n        db.refresh(db_user)\n        return db_user\n    def get_user_by_username(self, db: Session, username: str):\n        # check if the user exist\n        user = db.query(User).filter(User.id == username).first()",
+        "peekOfCode": "class UserServices:\n    @staticmethod\n    def create_user( db: Session, username: str, email: str, hashed_password: str):\n        db_user = User(username=username, email=email, hashed_password=hashed_password)\n        db.add(db_user)\n        db.commit()\n        db.refresh(db_user)\n        return db_user\n    @staticmethod\n    def get_user_by_username( db, username: str):",
         "detail": "app.users.services",
+        "documentation": {}
+    },
+    {
+        "label": "user_service",
+        "kind": 5,
+        "importPath": "app.users.services",
+        "description": "app.users.services",
+        "peekOfCode": "user_service = UserServices()",
+        "detail": "app.users.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = os.environ.get('DATABASE_URL')\ntry:\n    engine = create_engine(SQLALCHEMY_DATABASE_URL)\n    with engine.connect() as connection:\n        print(\"Connection successful!\")\n    SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nexcept Exception as e:\n    print(f\"Connection failed: {e}\")\nBase = declarative_base()\n# Base.metadata.create_all(bind=engine)",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "Base = declarative_base()\n# Base.metadata.create_all(bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.database",
         "documentation": {}
     },
     {
@@ -1959,35 +1882,8 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "app = FastAPI()\napp.include_router(router)\napp.include_router(router=user_router,  prefix='/users', tags=['Users'])\napp.include_router(router=room_router,  prefix='/rooms', tags=['Rooms'])\napp.include_router(router=reserve_router,  prefix='/reservations', tags=['Reservations'])\n@app.get(\"/\")\nasync def root():\n    return {\"message\": \"Hello World\"}",
+        "peekOfCode": "app = FastAPI()\n# app.include_router(router)\napp.include_router(router=user_router,  prefix='/users', tags=['Users'])\napp.include_router(router=room_router,  prefix='/rooms', tags=['Rooms'])\napp.include_router(router=reserve_router,  prefix='/reservations', tags=['Reservations'])\n@app.get(\"/\")\nasync def root():\n    return {\"message\": \"Hello World\"}",
         "detail": "app.main",
-        "documentation": {}
-    },
-    {
-        "label": "get_db",
-        "kind": 2,
-        "importPath": "database",
-        "description": "database",
-        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "database",
-        "documentation": {}
-    },
-    {
-        "label": "SQLALCHEMY_DATABASE_URL",
-        "kind": 5,
-        "importPath": "database",
-        "description": "database",
-        "peekOfCode": "SQLALCHEMY_DATABASE_URL = os.environ.get('DATABASE_URL')\ntry:\n    engine = create_engine(SQLALCHEMY_DATABASE_URL)\n    with engine.connect() as connection:\n        print(\"Connection successful!\")\n    SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nexcept Exception as e:\n    print(f\"Connection failed: {e}\")\nBase = declarative_base()\n# Base.metadata.create_all(bind=engine)",
-        "detail": "database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "kind": 5,
-        "importPath": "database",
-        "description": "database",
-        "peekOfCode": "Base = declarative_base()\n# Base.metadata.create_all(bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "database",
         "documentation": {}
     },
     {
